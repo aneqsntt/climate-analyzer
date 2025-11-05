@@ -88,6 +88,18 @@ def plot_analysis(analysis):
 
 # -------- Execução principal --------
 if __name__ == "__main__":
+    3. The program prints a concise scientific report and opens a figure. A PNG image is saved in `output/`.
+
+## Why this project
+This is a concise demonstration of:
+- Data processing with NumPy
+- Scientific plotting with Matplotlib
+- Reproducible output suitable for a portfolio
+
+## Author
+Ane — Physics undergraduate and scientific programming intern.
+
     analysis = build_report(SIMULATED_DAYS)
     plot_analysis(analysis)
+
 
